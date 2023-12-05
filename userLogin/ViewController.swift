@@ -9,11 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var signUpButton: UIButton!
+    @IBOutlet var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        signUpButton.layer.cornerRadius = 8
+        signUpButton.layer.borderWidth = 1
+        signUpButton.layer.borderColor = UIColor.white.cgColor
+        
+        loginButton.layer.cornerRadius = 8
     }
 
 
+    @IBAction func onPressLogin(_ sender: UIButton) {
+        
+    }
+    @IBAction func onPressSignUp(_ sender: UIButton) {
+        
+    }
 }
 
