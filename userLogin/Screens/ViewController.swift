@@ -23,6 +23,16 @@ class ViewController: UIViewController {
 
     @IBAction func onPressLogin(_ sender: UIButton) {
         
+//        let loginVc = UIStoryboard(name: "Main", bundle: nil)
+//            .instantiateViewController(withIdentifier: "LoginVc")
+//        loginVc.modalPresentationStyle = .fullScreen
+//        self.present(loginVc, animated: true)
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let loginVc = storyboard.instantiateViewController(withIdentifier: "LoginVc") as? ResetPasswordVc {
+            navigationController?.pushViewController(loginVc, animated: true)
+        }
+        
     }
     @IBAction func onPressSignUp(_ sender: UIButton) {
         

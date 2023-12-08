@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC4F9E132B20418900F914DD /* VerificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F9E122B20418900F914DD /* VerificationPage.swift */; };
 		EC8AE1292B1DA6E200E0CF57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8AE1282B1DA6E200E0CF57 /* AppDelegate.swift */; };
 		EC8AE12B2B1DA6E200E0CF57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8AE12A2B1DA6E200E0CF57 /* SceneDelegate.swift */; };
 		EC8AE12D2B1DA6E200E0CF57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8AE12C2B1DA6E200E0CF57 /* ViewController.swift */; };
 		EC8AE1302B1DA6E200E0CF57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8AE12E2B1DA6E200E0CF57 /* Main.storyboard */; };
 		EC8AE1322B1DA6E400E0CF57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8AE1312B1DA6E400E0CF57 /* Assets.xcassets */; };
 		EC8AE1352B1DA6E400E0CF57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8AE1332B1DA6E400E0CF57 /* LaunchScreen.storyboard */; };
-		EC8AE13D2B1DB8B500E0CF57 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8AE13C2B1DB8B500E0CF57 /* LoginViewController.swift */; };
-		ECDBF6C62B1F0B3600354F87 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDBF6C52B1F0B3600354F87 /* ScrollView.swift */; };
+		EC8B21E92B20EA3500A87D70 /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B21E82B20EA3500A87D70 /* LoginVc.swift */; };
+		EC944EDB2B1F36A6007BA441 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC944EDA2B1F36A6007BA441 /* LoginPage.swift */; };
+		ECFE7D712B219E5A003A8B7E /* ResetPasswordVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE7D702B219E5A003A8B7E /* ResetPasswordVc.swift */; };
+		ECFE7D732B219E90003A8B7E /* VerifiedVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE7D722B219E90003A8B7E /* VerifiedVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC4F9E122B20418900F914DD /* VerificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationPage.swift; sourceTree = "<group>"; };
 		EC8AE1252B1DA6E200E0CF57 /* userLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = userLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8AE1282B1DA6E200E0CF57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8AE12A2B1DA6E200E0CF57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,8 +30,10 @@
 		EC8AE1312B1DA6E400E0CF57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC8AE1342B1DA6E400E0CF57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8AE1362B1DA6E400E0CF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC8AE13C2B1DB8B500E0CF57 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		ECDBF6C52B1F0B3600354F87 /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		EC8B21E82B20EA3500A87D70 /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
+		EC944EDA2B1F36A6007BA441 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		ECFE7D702B219E5A003A8B7E /* ResetPasswordVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVc.swift; sourceTree = "<group>"; };
+		ECFE7D722B219E90003A8B7E /* VerifiedVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifiedVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC4F9E142B20419F00F914DD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EC8AE12C2B1DA6E200E0CF57 /* ViewController.swift */,
+				EC8B21E82B20EA3500A87D70 /* LoginVc.swift */,
+				EC4F9E122B20418900F914DD /* VerificationPage.swift */,
+				ECFE7D702B219E5A003A8B7E /* ResetPasswordVc.swift */,
+				ECFE7D722B219E90003A8B7E /* VerifiedVc.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		EC8AE11C2B1DA6E200E0CF57 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +78,14 @@
 		EC8AE1272B1DA6E200E0CF57 /* userLogin */ = {
 			isa = PBXGroup;
 			children = (
+				EC4F9E142B20419F00F914DD /* Screens */,
 				EC8AE1282B1DA6E200E0CF57 /* AppDelegate.swift */,
 				EC8AE12A2B1DA6E200E0CF57 /* SceneDelegate.swift */,
-				EC8AE12C2B1DA6E200E0CF57 /* ViewController.swift */,
-				EC8AE13C2B1DB8B500E0CF57 /* LoginViewController.swift */,
-				ECDBF6C52B1F0B3600354F87 /* ScrollView.swift */,
 				EC8AE12E2B1DA6E200E0CF57 /* Main.storyboard */,
 				EC8AE1312B1DA6E400E0CF57 /* Assets.xcassets */,
 				EC8AE1332B1DA6E400E0CF57 /* LaunchScreen.storyboard */,
 				EC8AE1362B1DA6E400E0CF57 /* Info.plist */,
+				EC944EDA2B1F36A6007BA441 /* LoginPage.swift */,
 			);
 			path = userLogin;
 			sourceTree = "<group>";
@@ -144,11 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8AE13D2B1DB8B500E0CF57 /* LoginViewController.swift in Sources */,
 				EC8AE12D2B1DA6E200E0CF57 /* ViewController.swift in Sources */,
 				EC8AE1292B1DA6E200E0CF57 /* AppDelegate.swift in Sources */,
-				ECDBF6C62B1F0B3600354F87 /* ScrollView.swift in Sources */,
+				ECFE7D732B219E90003A8B7E /* VerifiedVc.swift in Sources */,
+				EC8B21E92B20EA3500A87D70 /* LoginVc.swift in Sources */,
+				EC4F9E132B20418900F914DD /* VerificationPage.swift in Sources */,
+				EC944EDB2B1F36A6007BA441 /* LoginPage.swift in Sources */,
 				EC8AE12B2B1DA6E200E0CF57 /* SceneDelegate.swift in Sources */,
+				ECFE7D712B219E5A003A8B7E /* ResetPasswordVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
