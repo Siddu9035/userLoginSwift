@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EC4F9E132B20418900F914DD /* VerificationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4F9E122B20418900F914DD /* VerificationPage.swift */; };
+		EC5E180A2B2714030073A729 /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E18092B2714030073A729 /* SignUpVc.swift */; };
+		EC5E180C2B2772610073A729 /* collectionVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E180B2B2772610073A729 /* collectionVc.swift */; };
+		EC5E18102B2774220073A729 /* myCollectionVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E180E2B2774220073A729 /* myCollectionVc.swift */; };
+		EC5E18112B2774220073A729 /* myCollectionVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5E180F2B2774220073A729 /* myCollectionVc.xib */; };
+		EC5E18142B2776A00073A729 /* collectionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5E18132B2776A00073A729 /* collectionData.swift */; };
+		EC79F9092B289BD8009B6226 /* PageVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC79F9082B289BD8009B6226 /* PageVc.swift */; };
 		EC8AE1292B1DA6E200E0CF57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8AE1282B1DA6E200E0CF57 /* AppDelegate.swift */; };
 		EC8AE12B2B1DA6E200E0CF57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8AE12A2B1DA6E200E0CF57 /* SceneDelegate.swift */; };
 		EC8AE12D2B1DA6E200E0CF57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8AE12C2B1DA6E200E0CF57 /* ViewController.swift */; };
@@ -22,6 +28,12 @@
 
 /* Begin PBXFileReference section */
 		EC4F9E122B20418900F914DD /* VerificationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationPage.swift; sourceTree = "<group>"; };
+		EC5E18092B2714030073A729 /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
+		EC5E180B2B2772610073A729 /* collectionVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionVc.swift; sourceTree = "<group>"; };
+		EC5E180E2B2774220073A729 /* myCollectionVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myCollectionVc.swift; sourceTree = "<group>"; };
+		EC5E180F2B2774220073A729 /* myCollectionVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myCollectionVc.xib; sourceTree = "<group>"; };
+		EC5E18132B2776A00073A729 /* collectionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionData.swift; sourceTree = "<group>"; };
+		EC79F9082B289BD8009B6226 /* PageVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVc.swift; sourceTree = "<group>"; };
 		EC8AE1252B1DA6E200E0CF57 /* userLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = userLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8AE1282B1DA6E200E0CF57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8AE12A2B1DA6E200E0CF57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,8 +67,35 @@
 				EC4F9E122B20418900F914DD /* VerificationPage.swift */,
 				ECFE7D702B219E5A003A8B7E /* ResetPasswordVc.swift */,
 				ECFE7D722B219E90003A8B7E /* VerifiedVc.swift */,
+				EC5E18092B2714030073A729 /* SignUpVc.swift */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		EC5E180D2B2773AA0073A729 /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E180B2B2772610073A729 /* collectionVc.swift */,
+				EC5E180E2B2774220073A729 /* myCollectionVc.swift */,
+				EC5E180F2B2774220073A729 /* myCollectionVc.xib */,
+			);
+			path = collectionView;
+			sourceTree = "<group>";
+		};
+		EC5E18122B2776860073A729 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EC5E18132B2776A00073A729 /* collectionData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EC79F9072B289BAF009B6226 /* On-Boarding */ = {
+			isa = PBXGroup;
+			children = (
+				EC79F9082B289BD8009B6226 /* PageVc.swift */,
+			);
+			path = "On-Boarding";
 			sourceTree = "<group>";
 		};
 		EC8AE11C2B1DA6E200E0CF57 = {
@@ -78,6 +117,9 @@
 		EC8AE1272B1DA6E200E0CF57 /* userLogin */ = {
 			isa = PBXGroup;
 			children = (
+				EC79F9072B289BAF009B6226 /* On-Boarding */,
+				EC5E18122B2776860073A729 /* Data */,
+				EC5E180D2B2773AA0073A729 /* collectionView */,
 				EC4F9E142B20419F00F914DD /* Screens */,
 				EC8AE1282B1DA6E200E0CF57 /* AppDelegate.swift */,
 				EC8AE12A2B1DA6E200E0CF57 /* SceneDelegate.swift */,
@@ -150,6 +192,7 @@
 			files = (
 				EC8AE1352B1DA6E400E0CF57 /* LaunchScreen.storyboard in Resources */,
 				EC8AE1322B1DA6E400E0CF57 /* Assets.xcassets in Resources */,
+				EC5E18112B2774220073A729 /* myCollectionVc.xib in Resources */,
 				EC8AE1302B1DA6E200E0CF57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,12 +205,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC8AE12D2B1DA6E200E0CF57 /* ViewController.swift in Sources */,
+				EC5E180A2B2714030073A729 /* SignUpVc.swift in Sources */,
+				EC5E180C2B2772610073A729 /* collectionVc.swift in Sources */,
 				EC8AE1292B1DA6E200E0CF57 /* AppDelegate.swift in Sources */,
 				ECFE7D732B219E90003A8B7E /* VerifiedVc.swift in Sources */,
 				EC8B21E92B20EA3500A87D70 /* LoginVc.swift in Sources */,
 				EC4F9E132B20418900F914DD /* VerificationPage.swift in Sources */,
 				EC944EDB2B1F36A6007BA441 /* LoginPage.swift in Sources */,
 				EC8AE12B2B1DA6E200E0CF57 /* SceneDelegate.swift in Sources */,
+				EC79F9092B289BD8009B6226 /* PageVc.swift in Sources */,
+				EC5E18142B2776A00073A729 /* collectionData.swift in Sources */,
+				EC5E18102B2774220073A729 /* myCollectionVc.swift in Sources */,
 				ECFE7D712B219E5A003A8B7E /* ResetPasswordVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
